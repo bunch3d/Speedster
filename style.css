@@ -33,37 +33,6 @@ nav a:hover {
     color: #ccc;
 }
 
-.hero {
-    background-image: url('hero.jpg');
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-}
-
-.hero h1 {
-    font-size: 48px;
-}
-
-.hero p {
-    font-size: 24px;
-}
-
-.hero button {
-    background-color: #337ab7;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-.hero button:hover {
-    background-color: #23527c;
-}
-
 footer {
     background-color: #333;
     color: #fff;
