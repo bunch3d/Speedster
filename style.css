@@ -1,4 +1,4 @@
-/* Global styles */
+/* Global styles
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,9 +6,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
+   
+   padding: 1em;
     text-align: center;
 }
 
@@ -41,7 +40,7 @@ footer {
     clear: both;
 }
 
-/* Colors */
+ Colors
 .primary-color {
     color: #337ab7;
 }
@@ -53,3 +52,4 @@ footer {
 .background-color {
     background-color: #f7f7f7;
 }
+*/
