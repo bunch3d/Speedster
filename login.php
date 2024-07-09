@@ -1,6 +1,5 @@
 <?php
-
-
+require_once 'config.php'
 ?>
 
 <!DOCTYPE html>
@@ -79,7 +78,7 @@
 
         <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
 
-          <form style="width: 23rem;">
+          <form style="width: 23rem;" action="signin_process" method="POST">
 
             <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Log in</h3>
 

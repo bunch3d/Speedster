@@ -1,5 +1,5 @@
 <?php
-
+require_once 'config.php'
 
 ?>
 
@@ -79,7 +79,7 @@
 
         <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
 
-          <form style="width: 23rem;">
+          <form style="width: 23rem;" action="signup_process.php" method="POST">
 
             <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Log in</h3>
 
@@ -105,7 +105,7 @@
             </div>
 
             <div class="pt-1 mb-4">
-              <button data-mdb-button-init data-mdb-ripple-init class="btn btn-info btn-lg btn-block" type="button">Login</button>
+              <button data-mdb-button-init data-mdb-ripple-init class="btn btn-info btn-lg btn-block" type="button">Register</button>
             </div>
 
             <p>Already have an account? <a href="login.php" class="link-info">Login</a></p>
